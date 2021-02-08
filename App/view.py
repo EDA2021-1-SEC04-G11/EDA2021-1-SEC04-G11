@@ -60,6 +60,7 @@ def loadTags():
     """
     return controller.loadTags('GoodReads/tags.csv')
 
+
 def loadBookTags():
     """
     Cargar los Tags de libros
@@ -81,7 +82,6 @@ while True:
 
         # TO-DO: Modificación de Est-1 en el Lab 2
         print("Primer libro cargado: " + str(lt.firstElement(books)))
-
 
         # TO-DO: Modificación de Est-2 en el Lab 2
 
